@@ -1,17 +1,19 @@
 backend:
   name: github
-  repo: alex-spare-acc/astro-gitops-cms # Заполните после Шага 3
+  repo: alex-spare-acc/astro-gitops-cms
   branch: main
+  base_url: https://decap-oauth.olsvcs.workers.dev # URL вашага воркера з Cloudflare
+  auth_endpoint: auth
 
 media_folder: "public/images"
 public_folder: "/images"
 
 collections:
   - name: "pages"
-    label: "Страницы"
+    label: "Pages"
     folder: "src/content/pages"
     create: true
     fields:
-      - { label: "Заголовок страницы", name: "title", widget: "string" }
-      - { label: "Описание для SEO", name: "description", widget: "string" }
-      - { label: "Главный баннер (Hero)", name: "heroText", widget: "text" }
+      - { label: "Page title", name: "title", widget: "string" }
+      - { label: "SEO Description", name: "description", widget: "string" }
+      - { label: "Hero Banner", name: "heroText", widget: "text" }
