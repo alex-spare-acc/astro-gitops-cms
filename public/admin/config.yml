@@ -2,7 +2,7 @@ backend:
   name: github
   repo: alex-spare-acc/astro-gitops-cms
   branch: main
-  base_url: https://decap-oauth.olsvcs.workers.dev # URL вашага воркера з Cloudflare
+  base_url: https://decap-oauth.olscvs.workers.dev
   auth_endpoint: auth
 
 media_folder: "public/images"
