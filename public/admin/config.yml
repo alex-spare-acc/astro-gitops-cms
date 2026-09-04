@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: ВАШ_ГИТХАБ_НИК/ИМЯ_РЕПОЗИТОРИЯ # Заполните после Шага 3
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "Страницы"
+    folder: "src/content/pages"
+    create: true
+    fields:
+      - { label: "Заголовок страницы", name: "title", widget: "string" }
+      - { label: "Описание для SEO", name: "description", widget: "string" }
+      - { label: "Главный баннер (Hero)", name: "heroText", widget: "text" }
