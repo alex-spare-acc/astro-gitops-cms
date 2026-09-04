@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: ВАШ_ГИТХАБ_НИК/ИМЯ_РЕПОЗИТОРИЯ # Заполните после Шага 3
+  repo: alex-spare-acc/astro-gitops-cms # Заполните после Шага 3
   branch: main
 
 media_folder: "public/images"
