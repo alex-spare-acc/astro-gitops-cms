@@ -1,5 +1,5 @@
 import { defineCollection, z } from 'astro:content';
-import { glob } from 'astro:content/loaders';
+import { glob } from 'astro/loaders';
 
 const pagesCollection = defineCollection({
   loader: glob({ 
